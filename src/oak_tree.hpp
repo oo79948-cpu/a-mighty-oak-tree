@@ -17,17 +17,17 @@ public:
 template <typename T>
 class Node {
     T* item;
-    Node<T>* left_node;
-    Node<T>* right_node;
+    Node* left_node;
+    Node* right_node;
 public:
-    Node<T>(T* item) {
+    Node(T* item) {
         this->item = item;
         this->left_node = nullptr;
         this->right_node = nullptr;
     }
-    void set_left(Node<T>* node);
-    void set_right(Node<T>* node);
-    Node<T>* left();
-    Node<T>* right();
+    void set_left(Node* node);
+    void set_right(Node* node);
+    Node* left();
+    Node* right();
     T* get_item();
 };

@@ -3,7 +3,6 @@
 #include "../src/oak_tree.hpp"
 #include "../src/oak_tree.cpp"
 
-
 TEST_CASE( "new node initializes with the correct item and has left and right set to null" ) {
     Squirrel test = Squirrel("test");
     Node<Squirrel> node = Node<Squirrel>(&test);

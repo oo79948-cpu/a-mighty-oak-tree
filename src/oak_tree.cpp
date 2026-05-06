@@ -1,12 +1,12 @@
 #include "oak_tree.hpp"
 
 template <typename T>
-void Node<T>::set_left(Node<T> *node) {
+void Node<T>::set_left(Node *node) {
     this->left_node = node;
 }
 
 template <typename T>
-void Node<T>::set_right(Node<T> *node) {
+void Node<T>::set_right(Node *node) {
     this->right_node = node;
 }
 

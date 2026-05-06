@@ -1,5 +1,6 @@
 #include <iostream>
 #include "src/oak_tree.hpp"
+#include "src/oak_tree.cpp"
 
 int main() {
     Squirrel cheeks = Squirrel("Cheeks");
